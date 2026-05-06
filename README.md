@@ -24,5 +24,10 @@ The project is split into three main components:
 ├── pipeline/      # SQL schema and Apache Beam runner logic
 └── tests/         # Unit and integration tests
 ```
-<img width="1904" height="913" alt="Screenshot 2026-04-30 205413" src="https://github.com/user-attachments/assets/80243754-afc2-4a38-af39-52c6c8be604b" />
+<img width="1911" height="916" alt="Screenshot 2026-05-06 155429" src="https://github.com/user-attachments/assets/d46c2b98-eeaa-40c3-907e-6b8f0d651cd0" />
+
+</br>
+
+<img width="1908" height="911" alt="Screenshot 2026-05-06 160843" src="https://github.com/user-attachments/assets/3e304846-a612-4507-b6d9-3fa1eefb8537" />
+
 
