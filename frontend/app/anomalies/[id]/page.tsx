@@ -121,7 +121,7 @@ export default function AnomalyDetailPage() {
         {/* NYC DCA Business */}
         <div className={styles.card}>
           <div className={styles.cardHeader}>
-            <span className={styles.cardTag}>NYC DCA</span>
+            <span className={styles.cardTag}>NYC DCWP</span>
             <h2 className={styles.cardTitle}>License Record</h2>
           </div>
           <div className={styles.fields}>
@@ -152,13 +152,10 @@ export default function AnomalyDetailPage() {
           </div>
           <div className={styles.fields}>
             <Field label="Entity Name" value={nys.current_entity_name} />
-            <Field label="DOS ID" value={nys.dos_id} mono />
-            <Field label="Entity Type" value={nys.entity_type} />
-            <Field label="DOS Process Name" value={nys.dos_process_name} />
-            <Field label="Date of Formation" value={nys.initial_dos_filing_date || nys.date_of_formation} mono />
-            <Field label="County" value={nys.county} />
+            <Field label="DOS ID" value={nys.dos_id} mono />    
+            <Field label="Date of Formation" value={nys.initial_dos_filing_date || nys.date_of_formation} mono />     
             <Field label="ZIP Code" value={nys.zip_code} mono />
-            <Field label="Jurisdiction" value={nys.jurisdiction} />
+            
           </div>
         </div>
 

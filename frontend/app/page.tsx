@@ -246,10 +246,10 @@ export default function DashboardPage() {
         <h2 className={styles.sectionTitle}>PIPELINE ARCHITECTURE</h2>
         <div className={styles.pipelineSteps}>
           {[
-            { step: '01', label: 'INGEST', desc: 'Socrata API → Google Cloud Storage Bucket' },
+            { step: '01', label: 'INGEST', desc: 'Socrata API to Google Cloud Storage Bucket' },
             { step: '02', label: 'VALIDATE', desc: 'Apache Beam and Pydantic models' },
-            { step: '03', label: 'LOAD', desc: 'Batch INSERT → Postgres via psycopg2' },
-            { step: '04', label: 'MATCH', desc: 'RapidFuzz fuzzy matching algroithm' },
+            { step: '03', label: 'LOAD', desc: 'Batch INSERT into Postgres DB via psycopg2' },
+            { step: '04', label: 'MATCH', desc: 'Fuzzy matching algorithm' },
             { step: '05', label: 'FLAG', desc: 'Anomaly detection across 3 signals' },
           ].map((s, i) => (
             <div key={s.step} className={styles.pipelineStep}>

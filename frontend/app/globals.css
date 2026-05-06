@@ -7,21 +7,21 @@
   --border: #c8bfa8;
   --border-subtle: #ddd6c4;
 
-  --text-primary: #1a2e1f;
-  --text-secondary: #4a6e52;
-  --text-muted: #8a9e8e;
+  --text-primary: #0f2a57;
+  --text-secondary: #2f4f8f;
+  --text-muted: #69789f;
 
-  --accent-gold: #4a9968;
-  --accent-gold-dim: #2d6644;
-  --accent-blue: #3d8a5a;
-  --accent-blue-dim: #c8dfd0;
+  --accent-gold: #f7941d;
+  --accent-gold-dim: #d9770d;
+  --accent-blue: #1d4ed8;
+  --accent-blue-dim: #1e40af;
 
   --flag-predates: #c4962a;
   --flag-dormant: #c4622a;
   --flag-address: #3d8a5a;
   --flag-dissolved: #7a5a9e;
 
-  --success: #4a9968;
+  --success: #1d4ed8;
   --danger: #c4422a;
 
   --font-display: 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;

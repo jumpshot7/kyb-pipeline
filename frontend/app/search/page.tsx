@@ -38,7 +38,7 @@ export default function SearchPage() {
         <p className={styles.eyebrow}>BUSINESS LOOKUP</p>
         <h1 className={styles.title}>Search NYC Businesses</h1>
         <p className={styles.subtitle}>
-          Search the NYC DCA license database and view associated compliance anomalies.
+          Search for New York City Department of Consumer and Worker Protection business's that are not in compliance.
         </p>
       </div>
 

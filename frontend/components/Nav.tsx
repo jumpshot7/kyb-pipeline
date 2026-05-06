@@ -17,7 +17,7 @@ export default function Nav() {
     <nav className={styles.nav}>
       <div className={styles.brand}>
         <span className={styles.brandMark}>◆</span>
-        <span className={styles.brandName}>KYB<span className={styles.brandSub}>INTELLIGENCE</span></span>
+        <span className={styles.brandName}>KYB<span className={styles.brandSub}>COMPLIANCE ENGINE</span></span>
       </div>
 
       <div className={styles.links}>
