@@ -34,11 +34,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "https://laughing-space-sniffle-wjx466vrj56cw5g-3000.app.github.dev",
-        "https://kyb-pipeline.vercel.app"
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

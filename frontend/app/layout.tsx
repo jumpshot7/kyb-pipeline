@@ -3,8 +3,8 @@ import './globals.css'
 import Nav from '@/components/Nav'
 
 export const metadata: Metadata = {
-  title: 'KYB Intelligence | Baselayer',
-  description: 'Know Your Business compliance anomaly detection across NYC DCA and NYS corporations',
+  title: 'KYB Compliance Engine',
+  description: 'Know Your Business compliance anomaly detection across NYC Department of Consumer and Worker Protection, and NYS corporations',
 }
 
 export default function RootLayout({

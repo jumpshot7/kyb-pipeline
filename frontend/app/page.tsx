@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import styles from './page.module.css'
 
-const API = '/api'
+const API = process.env.NEXT_PUBLIC_API_URL
 
 const BOROUGHS = ['Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island']
 
@@ -129,7 +129,7 @@ export default function DashboardPage() {
   if (loading) return (
     <div className={styles.loading}>
       <div className={styles.loadingDot} />
-      <span>LOADING INTELLIGENCE</span>
+      <span>LOADING KYB COMPLIANCE ENGINE</span>
     </div>
   )
 
@@ -145,8 +145,8 @@ export default function DashboardPage() {
             <span className={styles.heroLabel}>Anomalies<br />Detected</span>
           </h1>
           <p className={styles.heroSub}>
-            Fuzzy-matched NYC DCA licenses against NYS Active Corporations.
-            Flagging predated licenses, dormant entities, and address discrepancies.
+            We cross referenced 69,000 NYC DCPW business licenses with 2 million state records so you don't have to.
+            Here's what didn't add up.
           </p>
           <Link href="/anomalies" className={styles.heroCta}>
             Investigate Anomalies →
@@ -157,7 +157,7 @@ export default function DashboardPage() {
           <div className={styles.statGrid}>
             <div className={styles.statBox}>
               <span className={styles.statValue}>69K+</span>
-              <span className={styles.statLabel}>NYC DCA Licenses</span>
+              <span className={styles.statLabel}>NYC DCPW Licenses</span>
             </div>
             <div className={styles.statBox}>
               <span className={styles.statValue}>2M+</span>
@@ -165,10 +165,10 @@ export default function DashboardPage() {
             </div>
             <div className={styles.statBox}>
               <span className={styles.statValue}>85%</span>
-              <span className={styles.statLabel}>Match Threshold</span>
+              <span className={styles.statLabel}>Minimum Match Threshold</span>
             </div>
             <div className={styles.statBox}>
-              <span className={styles.statValue}>4</span>
+              <span className={styles.statValue}>3</span>
               <span className={styles.statLabel}>Anomaly Flags</span>
             </div>
           </div>
@@ -237,9 +237,6 @@ export default function DashboardPage() {
               </div>
             ))}
           </div>
-          <p className={styles.scoreNote}>
-            Score range 85–100 · token_sort_ratio matching
-          </p>
         </div>
 
       </div>
@@ -249,11 +246,11 @@ export default function DashboardPage() {
         <h2 className={styles.sectionTitle}>PIPELINE ARCHITECTURE</h2>
         <div className={styles.pipelineSteps}>
           {[
-            { step: '01', label: 'INGEST', desc: 'Socrata API → Google Cloud Storage' },
-            { step: '02', label: 'VALIDATE', desc: 'Apache Beam + Pydantic models' },
+            { step: '01', label: 'INGEST', desc: 'Socrata API → Google Cloud Storage Bucket' },
+            { step: '02', label: 'VALIDATE', desc: 'Apache Beam and Pydantic models' },
             { step: '03', label: 'LOAD', desc: 'Batch INSERT → Postgres via psycopg2' },
-            { step: '04', label: 'MATCH', desc: 'RapidFuzz token_sort_ratio ≥ 85' },
-            { step: '05', label: 'FLAG', desc: 'Anomaly detection across 4 signals' },
+            { step: '04', label: 'MATCH', desc: 'RapidFuzz fuzzy matching algroithm' },
+            { step: '05', label: 'FLAG', desc: 'Anomaly detection across 3 signals' },
           ].map((s, i) => (
             <div key={s.step} className={styles.pipelineStep}>
               <span className={styles.pipelineNum}>{s.step}</span>
