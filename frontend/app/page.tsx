@@ -145,7 +145,7 @@ export default function DashboardPage() {
             <span className={styles.heroLabel}>Anomalies<br />Detected</span>
           </h1>
           <p className={styles.heroSub}>
-            We cross referenced 69,000 NYC DCPW business licenses against 2 million state records - so you don't have to.
+            We cross referenced 69,000 NYC DCWP business licenses against 2 million state records - so you don't have to.
             Here's what didn't add up.
           </p>
           <Link href="/anomalies" className={styles.heroCta}>
@@ -157,7 +157,7 @@ export default function DashboardPage() {
           <div className={styles.statGrid}>
             <div className={styles.statBox}>
               <span className={styles.statValue}>69K+</span>
-              <span className={styles.statLabel}>NYC DCPW Licenses</span>
+              <span className={styles.statLabel}>NYC DCWP Licenses</span>
             </div>
             <div className={styles.statBox}>
               <span className={styles.statValue}>2M+</span>

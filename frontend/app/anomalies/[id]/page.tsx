@@ -170,14 +170,14 @@ export default function AnomalyDetailPage() {
             color="var(--flag-predates)"
             bg="rgba(240,165,0,0.08)"
             label="License Predates Formation"
-            description="NYC license was issued before the NYS entity was formed. Signal: how was a license granted for an entity that didn't exist yet?"
+            description="NYC DCWP license was issued before the NYS entity was formed."
           />
           <FlagRow
             active={data.flag_entity_dormant}
             color="var(--flag-dormant)"
             bg="rgba(232,93,4,0.08)"
             label="Entity Dormant"
-            description="License is Expired or Surrendered but the NYS entity is still active and was formed more than 3 years ago. Business stopped operating but never formally dissolved."
+            description="NYC DCWP License is Expired or Surrendered but the NYS entity is still active and was formed more than 3 years ago. Business stopped operating but never formally dissolved."
           />
           <FlagRow
             active={data.flag_address_mismatch}
@@ -191,7 +191,7 @@ export default function AnomalyDetailPage() {
             color="var(--flag-dissolved)"
             bg="rgba(155,93,229,0.08)"
             label="Active License / Dissolved Entity"
-            description="NYC license is active but the NYS entity is dissolved. Note: requires a dissolved corporations dataset — currently unavailable."
+            description="NYC license is active but the NYS entity is dissolved."
           />
         </div>
       </div>
