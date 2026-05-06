@@ -14,7 +14,7 @@
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 18px;
   letter-spacing: 0.2em;
   color: var(--accent-gold);
@@ -80,7 +80,7 @@
   color: #000;
   border: none;
   border-radius: var(--radius);
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -115,7 +115,7 @@
 }
 
 .emptyHint {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   letter-spacing: 0.08em;
 }
@@ -127,7 +127,7 @@
 }
 
 .resultCount {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 0.08em;
@@ -189,7 +189,7 @@
 }
 
 .bizMetaItem {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.06em;
@@ -207,7 +207,7 @@
 }
 
 .bizStatus {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.1em;
   padding: 4px 10px;
@@ -227,14 +227,14 @@
 }
 
 .loadingText {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 0.08em;
 }
 
 .noAnomalies {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 12px;
   color: var(--success);
   letter-spacing: 0.06em;
@@ -247,7 +247,7 @@
 }
 
 .anomalyHeader {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.1em;
@@ -276,13 +276,13 @@
 }
 
 .aFlag {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 9px;
   letter-spacing: 0.1em;
 }
 
 .anomalyScore {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 18px;
   font-weight: 500;
   color: var(--accent-gold);

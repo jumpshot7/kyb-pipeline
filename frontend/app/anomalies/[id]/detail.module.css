@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 12px;
   height: calc(100vh - 56px);
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   letter-spacing: 0.15em;
   color: var(--text-muted);
@@ -39,7 +39,7 @@
 }
 
 .backLink {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   letter-spacing: 0.08em;
   color: var(--accent-blue);
@@ -51,7 +51,7 @@
 }
 
 .id {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.15em;
   color: var(--text-muted);
@@ -67,7 +67,7 @@
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 14px;
   letter-spacing: 0.2em;
   color: var(--accent-gold);
@@ -97,7 +97,7 @@
 }
 
 .scoreLabel {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.15em;
   color: var(--text-muted);
@@ -112,7 +112,7 @@
 }
 
 .scoreMax {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 14px;
   color: var(--text-muted);
 }
@@ -163,7 +163,7 @@
 }
 
 .cardTag {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 9px;
   letter-spacing: 0.15em;
   color: var(--accent-blue);
@@ -198,7 +198,7 @@
 }
 
 .fieldLabel {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.08em;
   color: var(--text-muted);
@@ -211,8 +211,8 @@
   word-break: break-word;
 }
 
-.fieldMono {
-  font-family: var(--font-mono);
+.fielddisplay {
+  font-family: var(--font-display);
   font-size: 12px;
 }
 
@@ -224,7 +224,7 @@
 }
 
 .flagSectionTitle {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.2em;
   color: var(--text-muted);
@@ -277,7 +277,7 @@
 }
 
 .flagStatus {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.12em;
   padding: 4px 10px;

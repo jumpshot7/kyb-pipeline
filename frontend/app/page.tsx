@@ -14,8 +14,8 @@ const FLAG_CONFIG = [
     label: 'License Predates Formation',
     description: 'License issued before entity existed',
     color: 'var(--flag-predates)',
-    bg: 'rgba(196, 150, 42, 0.08)',
-    border: 'rgba(196, 150, 42, 0.25)',
+    bg: 'rgba(217, 56, 46, 0.08)',
+    border: 'rgba(196, 46, 43, 0.25)',
     icon: '⟲',
   },
   {
@@ -23,8 +23,8 @@ const FLAG_CONFIG = [
     label: 'Entity Dormant',
     description: 'Dead license, active legal shell',
     color: 'var(--flag-dormant)',
-    bg: 'rgba(196, 98, 42, 0.08)',
-    border: 'rgba(196, 98, 42, 0.25)',
+    bg: 'rgba(234, 193, 74, 0.08)',
+    border: 'rgba(226, 110, 42, 0.25)',
     icon: '◎',
   },
   {
@@ -32,8 +32,8 @@ const FLAG_CONFIG = [
     label: 'Address Mismatch',
     description: 'Operating from unregistered location',
     color: 'var(--flag-address)',
-    bg: 'rgba(61, 138, 90, 0.08)',
-    border: 'rgba(61, 138, 90, 0.25)',
+    bg: 'rgba(14, 138, 92, 0.08)',
+    border: 'rgba(29, 76, 56, 0.25)',
     icon: '⊘',
   },
 ]
@@ -145,7 +145,7 @@ export default function DashboardPage() {
             <span className={styles.heroLabel}>Anomalies<br />Detected</span>
           </h1>
           <p className={styles.heroSub}>
-            We cross referenced 69,000 NYC DCPW business licenses with 2 million state records so you don't have to.
+            We cross referenced 69,000 NYC DCPW business licenses against 2 million state records - so you don't have to.
             Here's what didn't add up.
           </p>
           <Link href="/anomalies" className={styles.heroCta}>

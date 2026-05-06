@@ -16,7 +16,7 @@
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 20px;
   letter-spacing: 0.2em;
   color: var(--accent-gold);
@@ -42,7 +42,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 11px;
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   letter-spacing: 0.06em;
   color: var(--text-secondary);
   transition: all 0.15s ease;
@@ -78,7 +78,7 @@
 .table th {
   padding: 12px 16px;
   text-align: left;
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.12em;
   color: var(--text-muted);
@@ -109,7 +109,7 @@
   text-align: center;
   padding: 48px !important;
   color: var(--text-muted);
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 12px;
   letter-spacing: 0.1em;
 }
@@ -146,20 +146,20 @@
 }
 
 .bizSub {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   color: var(--text-muted);
   margin-top: 2px;
 }
 
 .borough {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   color: var(--text-secondary);
 }
 
 .score {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 16px;
   font-weight: 500;
 }
@@ -171,7 +171,7 @@
 }
 
 .flag {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 9px;
   letter-spacing: 0.1em;
   padding: 3px 6px;
@@ -180,7 +180,7 @@
 }
 
 .status {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.08em;
   padding: 4px 8px;
@@ -211,7 +211,7 @@
 }
 
 .pageInfo {
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   color: var(--text-muted);
 }
@@ -226,7 +226,7 @@
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  font-family: var(--font-mono);
+  font-family: var(--font-display);
   font-size: 11px;
   color: var(--text-secondary);
   transition: all 0.15s ease;

@@ -67,7 +67,7 @@
   display: flex; 
   align-items: center; 
   gap: 6px; 
-  font-family: var(--font-mono); 
+  font-family: var(--font-display); 
   font-size: 10px; 
   letter-spacing: 0.12em; 
   color: #ff4d4d; 
